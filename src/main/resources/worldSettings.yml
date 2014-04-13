@@ -1,0 +1,38 @@
+###################################################
+##    Default Settings for worlds and server     ##
+## DO NOT CHANGE THESE UNLESS YOU REALLY HAVE TO ##
+## Each world has its own settings in worlds.yml ##
+## But its best to stick to the in game commands ##
+###################################################
+world-default:
+    bukkit:
+      settings:
+        allow-end: false
+        warn-on-overload: false
+      spawn-limits:
+        monsters: 5
+        animals: 5
+        water-animals: 2
+        ambient: 2
+      ticks-per:
+        monster-spawns: 400
+    properties:
+      allow-nether: false
+      allow:flight: true
+      announce-player-achievements: false
+      force-gamemode: true
+      spawn-npcs: false
+      enable-command-block: false
+      player-idle-timeout: 6000
+      gamemode: 2
+      view-distance: 7
+      generate-structures: false
+      spawn-protection: 0
+      motd: Community Survival Games
+    default-creation:
+      name: 'MyWorld'
+      type: 'FLAT'
+      environment: 'NORMAL'
+      generator: 'CleanroomGenerator:.'
+      structures: 'false'
+      fixedSpawn: '0,32,0'

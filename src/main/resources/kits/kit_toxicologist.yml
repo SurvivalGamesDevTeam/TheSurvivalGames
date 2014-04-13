@@ -1,0 +1,29 @@
+#####################
+## Kit Config File ##
+##  Toxicologist   ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Toxicologist
+
+#Kit type
+type: Classic
+
+# Kit icon - Must use valid item name
+# Potion format @p (declares potion) : Potion type (must use valid name) : true/false (is splash potion)
+icon: '@p:POISON:true'
+
+# Icon Lore
+iconLore: Master the art of throwing toxin
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "1;0#t@CLAY_BALL:a@1:n@Toxin Bomb@l&4So... Much... PAINNNNNN%&Toxicologist Kit - LvL 1"
+
+ability-ids:
+    - 4

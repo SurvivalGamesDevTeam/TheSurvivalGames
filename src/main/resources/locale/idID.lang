@@ -1,0 +1,177 @@
+# Bahasa Indonesia, Indonesia - Java I18N standard language file
+
+# Load #
+LOCALE_NAME = Bahasa Indonesia
+LOCALE_LOADED = File Bahasa Indonesia telah siap untuk digunakan !
+
+# General #
+PLAYER = Pemain
+
+# Enable #
+BEEN_ENABLED = telah siap untuk digunakan !
+COMMUNITY_PROJECT = adalah sebuah proyek komunitas, gabung di http://dev.bukkit.org/bukkit-plugins/the-survival-games/
+BEEN_DISABLED = telah dimatikan.
+SURVIVAL_GAMES = Survival Games
+
+# Scoreboard #
+COULD_NOT_CREATE = Papan skor tidak bisa dibuat untuk pemain
+WELCOME = Selamat datang
+POINTS = Poin
+RANK = Jabatan
+KILLS = Jumlah pemain yang anda bunuh
+WINS = Jumlah kemenangan anda
+WAITING_FOR_PLAYERS = Menunggu pemain...
+MAX_PLAYERS = Jumlah maksimum pemain
+MIN_PLAYERS = Jumlah minimum pemain
+PLAYERS = Pemain
+CLASS = Golongan
+
+# Command Handler # 
+NO_COMMAND = Perintah itu tidak ditemukan !
+ONLY_PLAYERS = Perintah itu hanya bisa dilakukan oleh pemain !
+INVALID_ARGUMENTS = Itu bukan argumen yang benar
+NOT_NUMBER = Itu bukan sebuah nomor, belajarlah untuk menghitung
+
+# SG Commands #
+CREATING_ARENA = Membangun arena nomor
+CREATING_LOBBY = Lobi telah ditetapkan untuk arena
+CREATING_DM = Area deathmatch telah ditetapkan untuk arena
+SET_MAXPLAYERS = Jumlah maksimum pemain telah ditetapkan untuk arena
+SET_CHEST = Golongan chest telah ditetapkan untuk arena
+SET_SPAWN = Tempat spawn telah ditetapkan untuk arena
+CANT_JOIN = Anda tidak bisa masuk ke arena itu
+INVALID_ARENA = Arena tidak sah :
+CHANGED_STATE = Keadaan telah dirubah.
+NOT_VALID = Itu bukan arena yang sah
+CANT_FORCE = Anda tidak bisa merubah paksa apapun sekarang.
+ARENA_END = Arena ini telah dipaksa untuk selesai.
+LEFT_ARENA = Anda telah meninggalkan arena
+LOL_NOPE = Anda belum bisa pergi sekarang.
+NOT_JOINABLE = Anda tidak diperbolehkan untuk memasuki lebih dari satu arena
+
+# SG Command Help Menu - CATATAN : Jangan terjemah perintah-perintah itu, hanya penjelasannya yang mengikuti.
+NO_HELP = Halaman bantuan itu tidak ditemukan
+NO_PAGE = Itu bukan halaman yang sah
+COMMAND_HELP_1 = - /sg create : Membangun sebuah arena
+COMMAND_HELP_69 = - /sg remove [ID arena] : Menghapus sebuah arena
+COMMAND_HELP_2 = - /sg setradius [ID arena][Radius] = Menetapkan radius sebuah arena
+COMMAND_HELP_3 = - /sg setlobby [ID arena] : Menetapkan lobi sebuah arena
+COMMAND_HELP_4 = - /sg setgamespawn [Nomor] : Menetapkan tempat spawn di sebuah tempat spesifik
+COMMAND_HELP_5 = - /sg setnextspawn : Menetapkan tempat spawn setelah yang pertama (dst.) untuk sebuah arena
+COMMAND_HELP_6 = - /sg setdeathmatch [Nomor] : Menetapkan tempat deathmatch
+COMMAND_HELP_96 = - /sg finish : Menyelesaikan pembuatan peta
+COMMAND_HELP_7 = - /sg setmaxplayers [Nomor] : Menetapkan jumlah maksimum pemain di sebuah arena
+COMMAND_HELP_8 = - /sg setchest [T1/T2] : Menetapkan golongan sebuah chest
+COMMAND_HELP_9 = - /sg join [ID arena] : Masuk ke sebuah arena
+COMMAND_HELP_10 = - /sg vote [Nomor] : Memilih sebuah map untuk dipakai saat permainan berjalan
+COMMAND_HELP_11 = - /sg bounty [Pemain][Jumlah uang] : Menetapkan sebuah sayembara untuk pemain yang disebutkan
+COMMAND_HELP_12 = - /sg sponsor [Pemain][Jumlah uang] : Menonton sebuah pemain bermain
+COMMAND_HELP_13 = - /sg leave : Meninggalkan arena yang anda sedang berada
+COMMAND_HELP_14 = - /sg start [ID arena][ID keadaan] : Memulai permainan dengan keadaan yang disebutkan
+COMMAND_HELP_15 = - /sg stop [ID arena] : Memberhentikan sebuah permainan dan  memperbaikinya
+COMMAND_HELP_16 = Akhir dari bantuan
+
+# Party Commands # 
+NO_CHAT = Anda sudah tidak menggunakan mode chat kelompok
+CHAT = Anda mulai menggunakan mode chat kelompok
+PARTY_TO_CHAT = Anda harus mempunyai sebuah kelompok untuk menggunakan mode chat kelompok
+HAS_DECLINED = telah menolak undangan anda
+YOU_DECLINED = Anda telah menolak
+INVITATION = yang memiliki undangan
+NO_INVITE = Anda tidak ada undangan yang belum dibalas
+NOT_LEADER = Anda harus menjadi ketua kelompok untuk mengirim undangan
+PARTY_FULL = Kelompok anda telah penuh
+IN_PARTY = telah mempunyai sebuah kelompok
+PENDING_INVITE = telah menerima undangan dari anda, tetapi belum membalas
+INVIEED_TO_PARTY = Anda telah diundang untuk masuk kelompok yang dimiliki oleh
+YOU_INVITED = Anda telah mengundang
+TO_JOIN_PARTY = untuk masuk kelompok anda
+COULD_NOT_FIND_INVITE = Tidak bisa menemukan pemain yang disebutkan
+YOU_JOINED = Anda telah masuk
+PARTY = yang memiliki kelompok
+JOINED_YOUR_PARTY = telah masuk ke kelompok anda
+PARTY_FULL_2 = Kelompok ini sudah penuh
+NO_PARTY = Kelompok itu tidak sah
+KICKED_FROM_PARTY = telah dipecat dari kelompok
+KICKED_FROM_PARTY_2 = Anda telah dipecat dari kelompok
+NOT_IN_YOUR_PARTY = tidak dalam kelompok anda
+LEADER_TO_KICK = Anda harus menjadi ketua kelompok untuk memecat anggota kelompok lain
+NO_PARTY_2 = Anda tidak mempunyai sebuah kelompok
+LEFT_PARTY = telah meninggalkan kelompok
+YOU_LEFT_PARTY = Anda telah meninggalkan kelompok
+NOT_ONLINE = sedang tidak bermain
+NOT_IN_PARTY = tidak dalam sebuah kelompok
+LEADER_TO_PROMOTE = Anda harus menjadi ketua kelompok untuk menaikkan jabatan anggota lain
+PROMOTED = Anda telah naik jabatan
+TO_LEADER = menjadi ketua
+PROMOTED_YOU = telah menaikkan jabatan anda menjadi ketua
+
+# Party Help Command Menu - CATATAN : Jangan terjemah perintah-perintah itu, hanya penjelasannya yang mengikuti.
+PARTY_HELP = Bantuan Perintah Kelompok (Party)
+PARTY_HELP_1 = - /party invite : Mengundang searing pemain untuk masuk ke kelompok anda
+PARTY_HELP_2 = - /party join : Masuk ke kelompok yang mengundang anda
+PARTY_HELP_3 = - /party leave : Meninggalkan kelompok yang anda sedang berada
+PARTY_HELP_4 = - /party decline : Menolak undangan dari sebuah kelompok
+PARTY_HELP_5 = - /party list : Memperlihatkan sebuah daftar pemain yang ada di dalam kelompok anda
+PARTY_HELP_6 = - /party kick : Memecat sebuah pemain dari kelompok anda
+PARTY_HELP_7 = - /party promote : Menaikkan jabatan sebuah pemain menjadi ketua kelompok
+PARTY_HELP_8 = - /party chat : Menyalakan atau mematikan mode chat kelompok
+PARTY_HELP_9 = Untuk informasi lebih lanjut, ketik /party help <perintah>
+PARTY_INVITE_HELP = Bantuan Perintah Mengundang Pemain (Party Invite)
+PARTY_INVITE_HELP_1 = Penggunaan : /party invite <pemain>
+PARTY_INVITE_HELP_2 = Mengundang seorang pemain ke kelompok anda.
+PARTY_INVITE_HELP_3 = Anda harus menjadi ketua kelompok, atau tidak berada disebuah kelompok untuk menggunakan perintah ini. Jika anda tidak berada disebuah kelompok, anda akan dibuatkan sebuah kelompok.
+PARTY_JOIN_HELP = Bantuan Perintah Masuk Kelompok (Party Join)
+PARTY_JOIN_HELP_1 = Penggunaan : /party join
+PARTY_JOIN_HELP_2 = Menerima undangan yang anda dapat.
+PARTY_JOIN_HELP_3 = Anda tidak bisa menggunakan perintah ini jika anda berada disebuah kelompok.
+PARTY_LEAVE_HELP = Bantuan Perintah Keluar Kelompok (Party Leave)
+PARTY_LEAVE_HELP_1 = Penggunaan : /party leave
+PARTY_LEAVE_HELP_2 = Mengeluarkan anda dari kelompok yang anda sedang berada.
+PARTY_LEAVE_HELP_3 = Anda harus berada disebuah kelompok untuk menggunakan perintah ini. Kelompok anda akan ditutup jika anda adalah ketua kelompok itu, atau anggota non-ketua terakhir.
+PARTY_DECLINE_HELP = Bantuan Perintah Menolak Undangan (Party Decline)
+PARTY_DECLINE_HELP_1 = Penggunaan : /party decline
+PARTY_DECLINE_HELP_2 = Menolak undangan untuk anda yang belum dibalas.
+PARTY_DECLINE_HELP_3 = Anda harus mempunyai sebuah undangan yang belum dibalas.
+PARTY_LIST_HELP = Bantuan Perintah Daftar Kelompok (Party List)
+PARTY_LIST_HELP_1 = Penggunaan : /party list
+PARTY_LIST_HELP_2 = atau
+PARTY_LIST_HELP_3 = Penggunaan : /party list <pemain>
+PARTY_LIST_HELP_4 = Menunjukkan anda sebuah daftar berisi anggota kelompok dan status mereka.
+PARTY_LIST_HELP_5 = Anda harus berada disebuah kelompok untuk menggunakan perintah ini. Nama ketua kelompok berwarna emas, pemain yang online berwarna putih, dan pemain yang offline berwarna abu-abu.
+PARTY_KICK_HELP = Bantuan Perintah Memecat Pemain (Party Kick)
+PARTY_KICK_HELP_1 = Penggunaan : /party kick <pemain>
+PARTY_KICK_HELP_2 = Memecat pemain yang disebutkan dari kelompok.
+PARTY_KICK_HELP_3 = Anda harus menjadi ketua kelompok untuk menggunakan perintah ini.
+PARTY_PROMOTE_HELP = Bantuan Perintah Menaikkan Jabatan Pemain (Party Promote)
+PARTY_PROMOTE_HELP_1 = Penggunaan : /party promote <pemain>
+PARTY_PROMOTE_HELP_2 = Menaikkan jabatan pemain yang disebutkan menjadi ketua kelompok.
+PARTY_PROMOTE_HELP_3 = Anda harus menjadi ketua kelompok untuk menggunakan perintah ini.
+PARTY_CHAT_HELP = Bantuan Perintah Mode Chat Kelompok (Party Chat)
+PARTY_CHAT_HELP_1 = Penggunaan : /party chat
+PARTY_CHAT_HELP_2 = Menyalakan atau mematikan mode chat kelompok.
+PARTY_CHAT_HELP_3 = Anda harus berada disebuah kelompok untuk menggunakan perintah ini.
+
+# Death #
+KILLED_BY = dibunuh oleh
+WITH_A = dengan
+FAIL = tiba-tiba meninggal di lobi karena
+
+# Party Manager #
+PARTY_CREATED = Anda telah membentuk sebuah kelompok
+PARTY_DISBANDED = Kelompok anda telah ditutup
+
+# Game Text #
+ODDS = Semoga keberuntungan ada di sisi anda
+STARTING_IN = Permainan akan mulai dalam
+GAME_STARTING = Permainan akan segera dimulai ! Bersiaplah !
+DM_STARTING = Deathmatch akan segera dimulai ! Bersiaplah !
+START = Sekarang anda sudah bisa membunuh pemain lain, mulailah bertarung !
+END = Permainan telah selesai, pemenangnya adalah :
+NOT_HAPPY = Anda tidak bisa lari dari deathmatch, penakut !
+NOT_VOTING = Pemungutan suara sedang tidak berlangsung
+MAP_WINNER = Pemungutan suara telah selesai, peta ini telah menang :
+FINISHED = Peta telah selesai dibuat
+BOUNTY_SUCCESS_RECEIVED = Bounty telah diterima ! Anda telah di-bounty oleh %sender untuk %amount
+BOUNTY_SUCCESS_SENT = Bounty telah dikirim ! Anda telah mem-bounty %reciever untuk %amount
+BOUNTY_FAIL = Bounty gagal ! :(

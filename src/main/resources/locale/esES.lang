@@ -1,0 +1,15 @@
+# Español, España - Java I18N Standard language file
+
+# Load #
+LOCALE_NAME = Español
+LOCALE_LOADED = Archivo de idioma español cargado!
+
+# General #
+PLAYER = Jugador
+
+# Enabled #
+BEEN_ENABLED = se ha habilitado!
+COMMUNITY_PROJECT = es un proyecto comunitario, entra en  http://dev.bukkit.org/bukkit-plugins/the-survival-games/
+BEEN_DISABLED = se deshabilitó.
+SURVIVAL_GAMES = Juegos del hambre
+# Rest indev

@@ -1,0 +1,78 @@
+# Chest loot config file
+
+# Note: you cannot currently add more chest levels
+
+# Percentage chance that any given slot in a chest will be filled
+# Chance out of 100
+slot-probability: 20
+
+# Percentage chance that a next level item will be selected to fill a slot
+# Chance out of 100
+lvlup-probability: 35
+
+# Format:
+# The acceptable item name, number of items possible to fill slot, item data value
+# For a list of acceptable item names, refer to : http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+t1Chest:
+     lvl1:
+         - WOOD_AXE,1
+         - LEATHER_HELMET,1
+         - LEATHER_CHESTPLATE,1
+         - LEATHER_LEGGINGS,1
+         - LEATHER_BOOTS,1
+         - PORK,3
+         - RAW_FISH,3
+         - APPLE,3
+         - ARROW,5
+         - GOLD_SWORD,1
+         - FLINT,2
+         - GOLD_AXE,1
+         - FEATHER,3
+         - COOKIE,4
+     lvl2:
+         - WOOD_SWORD,1
+         - GOLD_HELMET,1
+         - GOLD_CHESTPLATE,1
+         - GOLD_LEGGINGS,1
+         - GOLD_BOOTS,1
+         - GRILLED_PORK,2
+         - BOWL,4
+         - APPLE,2
+         - RAW_BEEF,4
+         - COOKED_BEEF,2
+         - RAW_CHICKEN,3
+         - COOKED_CHICKEN,2
+         - ENDER_PEARL,2
+         - MUSHROOM_SOUP,1
+         - STONE_AXE,1
+         - FISHING_ROD,1
+         - BONE,2
+         - WATCH,1
+         - COMPASS,1
+         - STRING,1
+     lvl3:
+         - STONE_SWORD,1
+         - MELON,9
+         - CHAINMAIL_HELMET,1
+         - CHAINMAIL_CHESTPLATE,1
+         - CHAINMAIL_LEGGINGS,1
+         - CHAINMAIL_BOOTS,1
+         - EXP_BOTTLE,5
+         - BOW,1
+         - IRON_INGOT,1
+         - GOLD_INGOT,1
+         - IRON_AXE,1
+         - STICK,1
+         - WEB,1
+         - TNT,1
+     lvl4:
+         - IRON_HELMET,1
+         - IRON_CHESTPLATE,1
+         - IRON_LEGGINGS,1
+         - IRON_BOOTS,1
+         - CAKE,1
+     lvl5:
+         - DIAMOND,1
+         - PUMPKIN_PIE,4
+         - IRON_SWORD,1
+         - DIAMOND_AXE,1

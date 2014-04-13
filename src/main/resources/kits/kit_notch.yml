@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##      Notch      ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Notch
+
+#Kit type
+type: Mojangster
+
+# Kit icon - Must use valid item name
+icon: DIAMOND_ORE 
+
+# Icon Lore
+iconLore: DIAMOND ORE!!!! How to mine?
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "2;0#t@DIAMOND_ORE:a@2:n@Notch's Diamond Ore@l&4Wait... how am I gonna' mine this?%&1Notch Kit - LvL 1;1#t@STICK:a@2:n@The Sticks of the Pickaxe:l@&2THE STICKS OF THE PICKAXE%&1Notch Kit - LvL 1"
+
+ability-ids:
+    - 7

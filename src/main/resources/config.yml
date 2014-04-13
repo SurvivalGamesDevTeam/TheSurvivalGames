@@ -1,0 +1,63 @@
+#     _____                  _            _     _____                               _____             __ _       
+#    / ____|                (_)          | |   / ____|                             / ____|           / _(_)      
+#   | (___  _   _ _ ____   _____   ____ _| |  | |  __  __ _ _ __ ___   ___  ___   | |     ___  _ __ | |_ _  __ _ 
+#    \___ \| | | | '__\ \ / / \ \ / / _` | |  | | |_ |/ _` | '_ ` _ \ / _ \/ __|  | |    / _ \| '_ \|  _| |/ _` |
+#    ____) | |_| | |   \ V /| |\ V / (_| | |  | |__| | (_| | | | | | |  __/\__ \  | |___| (_) | | | | | | | (_| |
+#   |_____/ \__,_|_|    \_/ |_| \_/ \__,_|_|   \_____|\__,_|_| |_| |_|\___||___/   \_____\___/|_| |_|_| |_|\__, |
+#                                                                                                           __/ |
+#                                                                                                          |___/ 
+# This is a community project, join in http://dev.bukkit.org/bukkit-plugins/the-survival-games/.
+
+# Bungeecord Mode  DO NOT USE THIS RIGHT NOW, I HAVE NOT EVEN RELEASED THE PROXY YET
+bungeecord-mode: false
+
+# SETTINGS IF BUNGEECORD MODE IS TRUE
+
+# Define if the server should be a hub
+hub-server: false
+
+# END THOSE SETTINGS
+
+# Allow Double-Jump in game
+allow-double-jump-IG: false
+
+# Allow Double-Jump in lobby
+allow-double-jump: true
+
+# Default points for new players
+default-points: 100
+
+# World to display the scoreboard and prevent block breaking
+hub-world: world
+
+#Time in minutes until DM starts
+dm-time: 10
+
+# Enable sound servers to add custom sounds to your SG games
+# This will open a HTTP server on port 8080, and a Websocket server on port 8887
+# Thus, you will need to have both ports 8080 and 8887 open and unbinded
+enable-servers: true
+
+# This will be the IP that websocket uses to connect to the websockert server
+# This can be the direct IP of the server, or an A record (direct link) of your DNS to the IP  
+# It MUST be an A record, SRV records will not work
+server-ip: localhost
+
+# Welcome message
+welcome-message:
+  - '&eHi there, and welcome to'
+  - '&a&lThe Survival Games Server'
+  - '&2Click the compass to join a game. Click the clock to connect to the soundserver.'
+
+# Please enter acceptable item names, which can be found in http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+breaks-allowed:
+  - 'LEAVES'
+  - 'LEAVES_2'
+  - 'BROWN_MUSHROOM'
+  - 'RED_MUSHROOM'
+  - 'VINE'
+  - 'WHEAT'
+  - 'WEB'
+  - 'CARROT'
+  - 'POTATO'
+  

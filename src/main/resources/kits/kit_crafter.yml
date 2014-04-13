@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##     Crafter     ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Crafter
+
+#Kit type
+type: Utility
+
+# Kit icon - Must use valid item name
+icon: WORKBENCH
+
+# Icon Lore
+iconLore: Portable crafting table - Craft Away!
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "1;0#t@WORKBENCH:a@1:@e:UNDROPPABLE@2:n@Portable Crafter@l&4Right-click to open crafting table%Multi-use%&1Crafter Kit - LvL 1"
+
+ability-ids:
+    - 2

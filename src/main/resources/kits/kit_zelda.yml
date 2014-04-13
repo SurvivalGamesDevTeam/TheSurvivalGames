@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##      Zelda      ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Zelda
+
+#Kit type
+type: Game
+
+# Kit icon - Must use valid item name
+icon: SPECKLED_MELON
+
+# Icon Lore
+iconLore: ZELDAA HHHEEEAAARRTTTSSS
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "1;0#t@SPECKLED_MELON:d@0:a@2:e@UNDROPPABLE@1:n@Zelda Heart:l@&3Heal when right clicked - hearts from the dead%&1Zelda Kit - LvL1"
+
+ability-ids:
+    - 1

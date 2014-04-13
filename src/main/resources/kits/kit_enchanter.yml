@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##    Enchanter    ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Enchanter
+
+#Kit type
+type: Utility
+
+# Kit icon - Must use valid item name
+icon: ENCHANTMENT_TABLE
+
+# Icon Lore
+iconLore: Portable enchantment table - Enchant Away!
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "1;0#t@ENCHANTMENT_TABLE:a@1:e@UNDROPPABLE@1:n@Portable Enchanter@l&4Right-click to open enchantment table%Single-use%&1Enchanter Kit - LvL 1"
+
+ability-ids:
+    - 6

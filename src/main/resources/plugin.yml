@@ -1,0 +1,31 @@
+name: TheSurvivalGames
+main: com.communitysurvivalgames.thesurvivalgames.TheSurvivalGames
+version: 1.0.0
+author: The Community!
+database: true
+softdepend: [Vault]
+
+commands:
+    sg: 
+        usage: /sg <command>
+        description: Base command for all SG related functions
+        aliases: [survival-games, sgames, hg]
+    party:
+        usage: /party <command>
+        description: Base command for all party related functions
+        aliases: [team, p]
+    sponsor:
+        usage: /sponsor
+        description: Opens the sponsor menu
+    tpx:
+        usage: /tpx <dim name>
+        description: Teleport to the spawn of a certain world id
+permissions:
+    sg.admin:
+        description: Gives access to all SG commands.
+        children:
+        - sg.mod
+        - sg.user
+        - sg.create
+        - sg.gamestate.*
+        #Rest indev

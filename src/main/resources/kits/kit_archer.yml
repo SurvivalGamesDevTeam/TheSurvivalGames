@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##     Archer      ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Archer
+
+#Kit type
+type: Classic
+
+# Kit icon - Must use valid item name
+icon: BOW
+
+# Icon Lore
+iconLore: Shoot arrows! Pew pew pew
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "1;0#t@BOW:a@2:n@The Shadow's Strike@l&4Right-click to add enchantment%&1Archer Kit - LvL 1"
+
+ability-ids:
+    - 2

@@ -1,0 +1,62 @@
+# Soundcloud config for CMSG
+
+# Enable SC integration (Play music from the SG Jukebox)
+enable: true
+
+# ALL MUSIC MUST USE THE TRACK ID!  A single integer between zero and two billion
+# A tutorial for retrieving the Track ID of a song can be found here: http://stackoverflow.com/questions/18924693/
+
+# Lobby music (Plays while waiting for a game to start) - generally relaxed
+lobby-music:
+    # Northern Air Temple - By Kaminanda
+    - 142117643
+    # Between the Worlds - By SizzleBird
+    - 141548977
+    # Better Place - By SizzleBird
+    - 142342480
+    # Sleeps - By Airwave
+    - 141301492
+    # Connected - By Dreamcaster
+    - 141007201
+    # Siren in Tears - By cokiyu
+    - 140726086    
+    # Serenity - By UT3
+    - 43793522
+    # SiNGULARiTY - By UT3
+    - 3962580
+    # Reconstructing Science Remix - Plasma3Music
+    - 49978387
+
+# Ingame music for when the player is "alone" - typically quite scary and tense
+ambient-music:
+    # Hostile Waters - By Oeystein Joergensen
+    - 140939255
+    # Hatred Echoing Through the Trees - By Dark Ambient Forest
+    - 52633412
+    # Reality Collapsing With Every Moment - By Dark Ambient Forest
+    - 53949026
+    # Swamp of Misanthropic Terror - By Dark Ambient Forest
+    - 45831701
+    # Silent Storm - By Dark Ambient Forest
+    - 34478868
+    # Dark Ambient Radio Vol. III - By DarkAmbientRadio
+    - 83923274
+
+# For when players are fighting - action oriented music
+battle-music:
+    # Assault - By UT3
+    - 43793500
+    # Chemical Burn - By UT3
+    - 43793502
+    # Collision Course - By UT3
+    - 43793504
+    # Hide n' Seek - By UT3
+    - 43793515
+    # Slaughter - By UT3
+    - 43793528
+    # Sniper Time - By UT3
+    - 43793529
+    # Hyperblast-Redux - By UT3
+    - 43791895
+    # Break The House - By Kevin Drew
+    - 125118989

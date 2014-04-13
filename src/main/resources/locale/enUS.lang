@@ -1,0 +1,179 @@
+# English, United States - Java I18N standard language file
+
+# Load #
+LOCALE_NAME = English
+LOCALE_LOADED = English language file loaded!
+
+# General #
+PLAYER = Player
+
+# Enable #
+BEEN_ENABLED = has been enabled!
+COMMUNITY_PROJECT = is a community project, join at http://dev.bukkit.org/bukkit-plugins/the-survival-games/
+BEEN_DISABLED = was disabled.
+SURVIVAL_GAMES = Survival Games
+
+# Scoreboard #
+COULD_NOT_CREATE = The scoreboard could not be created for player
+WELCOME = Welcome
+POINTS = Points
+RANK = Rank
+KILLS = Kills
+WINS = Wins
+WAITING_FOR_PLAYERS = Waiting For Players...
+MAX_PLAYERS = Max Players
+MIN_PLAYERS = Min Players
+PLAYERS = Players
+CLASS = Class
+
+# Command Handler #
+NO_COMMAND = Command does not exist!
+ONLY_PLAYERS = This command may only executed by players!
+INVALID_ARGUMENTS = Those aren't the arguments
+NOT_NUMBER = That's not a number, learn how to count
+
+# SG Commands #
+CREATING_ARENA = Creating arena number
+CREATING_LOBBY = Lobby spawn set for arena
+CREATING_DM = Deathmatch spawn set for arena
+REMOVED_ARENA = Arena successfully removed
+SET_MAXPLAYERS = Max players set for arena 
+SET_CHEST = Chest tier set for arena
+SET_SPAWN = Game spawn set for arena
+CANT_JOIN = You can't join that arena
+INVALID_ARENA = Invalid arena:
+CHANGED_STATE = Changed the state.
+NOT_VALID = That is not a valid arena
+CANT_FORCE = You can't change force anything yet.
+ARENA_END = This arena has been forced to end.
+LEFT_ARENA = You have left the arena
+LOL_NOPE = You can't do that. Yet.
+NOT_JOINABLE = You're not allowed to join multiple games
+
+# SG Command Help Menu - NOTE: Please do not translate commands themselves, only the help that follows
+NO_HELP = That help page doesn't exist
+NO_PAGE = That's not a real page
+COMMAND_HELP_1 = - /sg create: Creates an arena
+COMMAND_HELP_69 = - /sg remove [Arena ID]: Removes an arena
+COMMAND_HELP_2 = - /sg setradius [Arena ID][Radius]: Sets the radius of the arena
+COMMAND_HELP_3 = - /sg setlobby [Arena ID]: Sets the lobby spawn
+COMMAND_HELP_4 = - /sg setgamespawn [Number]: Set the spawn ingame for the specific point
+COMMAND_HELP_5 = - /sg setnextspawn: Set the next spawn in line for the arena
+COMMAND_HELP_6 = - /sg setdeathmatch [Number]: Sets the deathmatch spawn at the point
+COMMAND_HELP_96 = - /sg finish: Finishes Map creation
+COMMAND_HELP_7 = - /sg setmaxplayers [Number]: Set the max arena capacity
+COMMAND_HELP_8 = - /sg setchest [T1/T2]: Set a specific chest tier
+COMMAND_HELP_9 = - /sg join [Arena ID]: Joins an arena
+COMMAND_HELP_10 = - /sg vote [Number]: Makes you vote for a map
+COMMAND_HELP_11 = - /sg bounty [Player][Amount]: Set a bounty for this player
+COMMAND_HELP_12 = - /sg sponsor [Player][Amount]: Sponsor a player
+COMMAND_HELP_13 = - /sg leave: Leaves an arena
+COMMAND_HELP_14 = - /sg start [Arena ID][State ID]: Puts the game into a defined state
+COMMAND_HELP_15 = - /sg stop [Arena ID]: Stops the arena and rollsback
+COMMAND_HELP_16 = End of help
+
+# Party Commands #
+NO_CHAT = You are no longer party chatting
+CHAT = You are now party chatting
+PARTY_TO_CHAT = You must be in a party to use party chat
+HAS_DECLINED =  has declined your invitation
+YOU_DECLINED =  You have declined 
+INVITATION = 's invitation
+NO_INVITE = You do not have a pending invite
+NOT_LEADER = You must be the party leader to send invites
+PARTY_FULL = Your party is full
+IN_PARTY =  is already in a party
+PENDING_INVITE =  already has a pending invite from you
+INVIEED_TO_PARTY = You have been invited to a party by 
+YOU_INVITED = You have invited 
+TO_JOIN_PARTY = to join your party
+COULD_NOT_FIND_INVITE = Could not find player 
+YOU_JOINED = You have joined 
+PARTY = 's party
+JOINED_YOUR_PARTY =  has joined your party
+PARTY_FULL_2 = The party is full
+NO_PARTY = The party does not exist
+NO_INVITE = You do not have a pending invite
+KICKED_FROM_PARTY =  was kicked from the party
+KICKED_FROM_PARTY_2 = You were kicked from the party
+NOT_IN_YOUR_PARTY =  is not in your party
+LEADER_TO_KICK = You must be the party leader to kick another player
+NO_PARTY_2 = You are not in a party
+LEFT_PARTY =  has left the party
+YOU_LEFT_PARTY = You have left the party
+NOT_ONLINE =  is not online
+NOT_IN_PARTY =  is not in a party
+LEADER_TO_PROMOTE = You must be the party leader to promote another player
+PROMOTED = You have promoted
+TO_LEADER =  to leader
+PROMOTED_YOU = has promoted you to leader
+
+# Party Help Command Menu - NOTE: Please do not translate commands themselves, only the help that follows
+PARTY_HELP = Party Help
+PARTY_HELP_1 = - /party invite : Invites a player to your party
+PARTY_HELP_2 = - /party join : Joins the party you were invited to
+PARTY_HELP_3 = - /party leave : Leaves your current party
+PARTY_HELP_4 = - /party decline: Declines your current party invite
+PARTY_HELP_5 = - /party list: Displays your current party members
+PARTY_HELP_6 = - /party kick: Removes a player from your party
+PARTY_HELP_7 = - /party promote: Promotes another player to party leader
+PARTY_HELP_8 = - /party chat: Toggles whether or not to speak in party chat only
+PARTY_HELP_9 = For more information on a command type /party help <command>
+PARTY_INVITE_HELP = Party Invite Help
+PARTY_INVITE_HELP_1 = Usage: /party invite <player>
+PARTY_INVITE_HELP_2 = Invites the specified player to join your party.
+PARTY_INVITE_HELP_3 = You must be the party leader, or not part of a party to use this command. This will start a new party if you are not in one.
+PARTY_JOIN_HELP = Party Join Help
+PARTY_JOIN_HELP_1 = Usage: /party join
+PARTY_JOIN_HELP_2 = Accepts your most recently received party invite.
+PARTY_JOIN_HELP_3 = You may not use this command if you are in a party.
+PARTY_LEAVE_HELP = Party Leave Help
+PARTY_LEAVE_HELP_1 = Usage: /party leave
+PARTY_LEAVE_HELP_2 = Leaves your current party.
+PARTY_LEAVE_HELP_3 = You must be in a party to use this command. Your current party will be disbanded if you are the leader, or the last remaining non-leader.
+PARTY_DECLINE_HELP = Party Decline Help
+PARTY_DECLINE_HELP_1 = Usage: /party decline
+PARTY_DECLINE_HELP_2 = Declines your pending party invite.
+PARTY_DECLINE_HELP_3 = You must have a pending invite to use this command.
+PARTY_LIST_HELP = Party List Help
+PARTY_LIST_HELP_1 = Usage: /party list
+PARTY_LIST_HELP_2 = OR
+PARTY_LIST_HELP_3 = Usage: /party list <playername>
+PARTY_LIST_HELP_4 = Lists your current party members and their status.
+PARTY_LIST_HELP_5 = You must be in a party to use this command. The party leader's name is gold, online members are white, and offline members are gray.
+PARTY_KICK_HELP = Party Kick Help
+PARTY_KICK_HELP_1 = Usage: /party kick <player>
+PARTY_KICK_HELP_2 = Removes the specified player from the party
+PARTY_KICK_HELP_3 = You must be the party leader to use this command
+PARTY_PROMOTE_HELP = Party Promote Help
+PARTY_PROMOTE_HELP_1 = Usage: /party promote <player>
+PARTY_PROMOTE_HELP_2 = Promotes the specified player to party leader
+PARTY_PROMOTE_HELP_3 = You must be the party leader to use this command
+PARTY_CHAT_HELP = Party Chat Help
+PARTY_CHAT_HELP_1 = Usage: /party chat
+PARTY_CHAT_HELP_2 = Toggles whether or not you are speaking in party chat
+PARTY_CHAT_HELP_3 = You must be in a party to talk in part chat
+
+# Death #
+KILLED_BY = was killed by
+WITH_A = with a
+FAIL = somehow managed to die whilst in the lobby because of 
+
+# Party Manager #
+PARTY_CREATED = You have created a new party
+PARTY_DISBANDED = Your party has been disbanded
+
+# Game Text #
+ODDS = May the odds be ever in your favour
+STARTING_IN = starting in
+GAME_STARTING = Game countdown has commenced!
+DM_STARTING = Deathmatch countdown has commenced!
+START = You can now take damage, fight!
+END = The game has ended, the winner is:
+NOT_HAPPY = You can't escape the deathmatch, coward!
+NOT_VOTING = Voting not currently in session
+MAP_WINNER = Voting has ended, this map has won:
+FINISHED = Map successfully created
+BOUNTY_SUCCESS_RECEIVED = Bounty received! Bountied for %amount by %sender
+BOUNTY_SUCCESS_SENT = Bounty sent! Bountied for %amount on %receiver
+BOUNTY_FAIL = Bounty failed :(

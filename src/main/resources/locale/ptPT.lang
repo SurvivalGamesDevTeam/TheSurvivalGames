@@ -1,0 +1,171 @@
+# Portuguese, from Portugal
+
+# Load #
+LOCALE_NAME = Português
+LOCALE_LOADED = Ficheiro de linguagem português carregado
+
+# General #
+PLAYER = Jogador
+
+# Enable #
+BEEN_ENABLED = foi ativado!
+COMMUNITY_PROJECT = é um projeto feito pela comunidade, junta-te em http://dev.bukkit.org/bukkit-plugins/the-survival-games/
+BEEN_DISABLED = foi desativado.
+SURVIVAL_GAMES = Jogos de Sobrevivência
+
+# Scoreboard #
+COULD_NOT_CREATE = O quadro de estatisticas nao pode ser criado por um jogador
+WELCOME = Bem vindo
+POINTS = Pontos
+RANK = Categoria
+KILLS = Matanças
+WINS = Vitórias
+WAITING_FOR_PLAYERS = Á espera de jogadores...
+MAX_PLAYERS = Jogadores Máximos
+MIN_PLAYERS = Jogadores Mínimos
+PLAYERS = Jogadores
+CLASS = Personagem
+
+# Command Handler #
+NO_COMMAND = Esse comando não existe!
+ONLY_PLAYERS = Esse comando só pode ser executado por jogadores!
+INVALID_ARGUMENTS = Esses não são os argumentos necessários
+NOT_NUMBER = Isso não é um número, aprende a contar
+
+# SG Commands #
+CREATING_ARENA = Criando numero para a arena
+CREATING_LOBBY = Lobby definido para a arena
+CREATING_DM = DeathMatch definido para a arena
+REMOVED_ARENA = Arena removida com sucesso
+SET_MAXPLAYERS = O número máximo de jogadores foi definido com sucesso
+SET_CHEST = Nivel do baú definido para a arena
+SET_SPAWN = Spawn do jogo definido para a arena
+CANT_JOIN = Não podes entrar nessa arena
+INVALID_ARENA = Arena inválida:
+CHANGED_STATE = O estado foi mudado.
+NOT_VALID = Essa arena não existe
+CANT_FORCE = Não podes forçar nada ainda
+ARENA_END = A arena foi forçada a parar
+LEFT_ARENA = Saiste da arena
+LOL_NOPE = Não podes sair por enquanto.
+
+# SG Command Help Menu - NOTE: Please do not translate commands themselves, only the help that follows
+NO_HELP = Essa página de ajuda não existe
+NO_PAGE = Essa página não é real
+COMMAND_HELP_1 = - /sg create: Cria uma arena
+COMMAND_HELP_69 = - /sg remove [Arena ID]: Remove uma arena
+COMMAND_HELP_2 = - /sg setradius [Arena ID][Radius]: Define o raio da arena
+COMMAND_HELP_3 = - /sg setlobby [Arena ID]: Define o lobby da arena
+COMMAND_HELP_4 = - /sg setgamespawn [Number]: Define um spawn para a arena
+COMMAND_HELP_5 = - /sg setnextspawn: Define o spawn em sequência para a arena
+COMMAND_HELP_6 = - /sg setdeathmatch [Number]: Define o ponto de deathmatch para a arena
+COMMAND_HELP_7 = - /sg setmaxplayers [Number]: Define o máximo número de jogadores para a arena
+COMMAND_HELP_8 = - /sg setchest [T1/T2]: Define um nivel de baú específico
+COMMAND_HELP_9 = - /sg join [Arena ID]: Entra numa arena
+COMMAND_HELP_10 = - /sg vote [Number]: Vota num mapa
+COMMAND_HELP_11 = - /sg bounty [Player][Amount]: Define a recompensa de um jogador
+COMMAND_HELP_12 = - /sg sponsor [Player][Amount]: Patrocina um jogador
+COMMAND_HELP_13 = - /sg leave: Sai duma arena
+COMMAND_HELP_14 = - /sg start [Arena ID][State ID]: Põe o jogo no estado definido
+COMMAND_HELP_15 = - /sg stop [Arena ID]: Para a arena e repõe os blocos
+COMMAND_HELP_16 = Fim da ajuda
+
+# Party Commands #
+NO_CHAT = Já não estás em chat de festa
+CHAT = Estás agora em chat de festa
+PARTY_TO_CHAT = Deves estar numa festa para entrar no chat desta
+HAS_DECLINED = rejeitou o teu convite
+YOU_DECLINED = Rejeitaste o convite
+INVITATION = convite
+NO_INVITE = Tu não tens nenhum convite pendente
+NOT_LEADER = Deves ser o lider da festa para enviar convites
+PARTY_FULL = A tua festa está cheia
+IN_PARTY = já está na tua festa
+PENDING_INVITE = ja tem um pedido pendente de ti
+INVIEED_TO_PARTY = Foste convidado para uma festa de:
+YOU_INVITED = Foste convidado
+TO_JOIN_PARTY = para se juntar a tua festa
+COULD_NOT_FIND_INVITE = Jogador não encontrado
+YOU_JOINED = Entraste na
+PARTY = festa
+JOINED_YOUR_PARTY = entrou na tua festa
+PARTY_FULL_2 = A festa está cheia
+NO_PARTY = A festa não existe
+NO_INVITE = Não tens nenhum pedido pendente
+KICKED_FROM_PARTY = foi expulso da festa
+KICKED_FROM_PARTY_2 = Foste expulso da festa
+NOT_IN_YOUR_PARTY = não está na tua festa
+LEADER_TO_KICK = Deves ser o lider da festa para expulsar membros
+NO_PARTY_2 = Não estás em nenhuma festa
+LEFT_PARTY = saiu da festa
+YOU_LEFT_PARTY = Saiste da festa
+NOT_ONLINE = não está online
+NOT_IN_PARTY = não está em nenhuma festa
+LEADER_TO_PROMOTE = Deves ser o lider da festa para promover membros
+PROMOTED = Foste promovido
+TO_LEADER = a lider
+PROMOTED_YOU = promoveu-te a lider
+
+# Party Help Command Menu - NOTE: Please do not translate commands themselves, only the help that follows
+PARTY_HELP = Party Help
+PARTY_HELP_1 = - /party invite : Convida um jogador para a tua festa
+PARTY_HELP_2 = - /party join : Entra na festa que foste convidado
+PARTY_HELP_3 = - /party leave : Sai da tua festa atual
+PARTY_HELP_4 = - /party decline: Rejeita o convite pendente
+PARTY_HELP_5 = - /party list: Mostra os membros da tua festa
+PARTY_HELP_6 = - /party kick: Expulsa um membro da tua festa
+PARTY_HELP_7 = - /party promote: Promove um jogador a lider da festa
+PARTY_HELP_8 = - /party chat: Alterna o uso do chat de festa
+PARTY_HELP_9 = Para mais informação sobre um comando usa /party help <command>
+PARTY_INVITE_HELP = Ajuda de convite
+PARTY_INVITE_HELP_1 = Usa: /party invite <player>
+PARTY_INVITE_HELP_2 = Convida o jogador especifico a juntar-se á tua festa.
+PARTY_INVITE_HELP_3 = Deves ser o lider da festa ou não participar em nenhuma. Assim vai criar-se uma nova festa para ti.
+PARTY_JOIN_HELP = Ajuda de entrada
+PARTY_JOIN_HELP_1 = Usa: /party join
+PARTY_JOIN_HELP_2 = Aceita o teu convite mais recente
+PARTY_JOIN_HELP_3 = Não deves usar este comando se és membro de uma festa
+PARTY_LEAVE_HELP = Ajuda de saida
+PARTY_LEAVE_HELP_1 = Usa: /party leave
+PARTY_LEAVE_HELP_2 = Sai da tua festa atual
+PARTY_LEAVE_HELP_3 = Deves estar numa festa para usar este comando. Se fores o lider da festa ou o ultimo membro ativo a festa será desfeita.
+PARTY_DECLINE_HELP = Ajuda de rejeição
+PARTY_DECLINE_HELP_1 = Usa: /party decline
+PARTY_DECLINE_HELP_2 = Rejeita o teu convite mais recente
+PARTY_DECLINE_HELP_3 = Deves ter um convite pendente para usar este comando.
+PARTY_LIST_HELP = Ajuda de lista
+PARTY_LIST_HELP_1 = Usa: /party list
+PARTY_LIST_HELP_2 = OU
+PARTY_LIST_HELP_3 = Usa: /party list <playername>
+PARTY_LIST_HELP_4 = Mostra uma lista dos membros da tua festa.
+PARTY_LIST_HELP_5 = Deves estar numa festa para usar este comando. O nome do lider é dourado, dos jogadores online é branco e dos jogadores offline é cinza.
+PARTY_KICK_HELP = Ajuda de expulsão
+PARTY_KICK_HELP_1 = Usa: /party kick <player>
+PARTY_KICK_HELP_2 = Expulsa o jogador específico da festa
+PARTY_KICK_HELP_3 = Deves ser o lider da festa para usar este comando.
+PARTY_PROMOTE_HELP = Ajuda de promoção
+PARTY_PROMOTE_HELP_1 = Usa: /party promote <player>
+PARTY_PROMOTE_HELP_2 = Promove o jogador específico a lider
+PARTY_PROMOTE_HELP_3 = Deves ser o lider da festa para usar este comando.
+PARTY_CHAT_HELP = Ajuda de chat
+PARTY_CHAT_HELP_1 = Usa: /party chat
+PARTY_CHAT_HELP_2 = Alterna quando sim ou não o chat da festa é utilizado.
+PARTY_CHAT_HELP_3 = Deves estar numa festa para poder conversar no chat desta.
+
+# Death #
+KILLED_BY = foi morto por
+WITH_A = com
+FAIL = morreu no lobby devido
+
+# Party Manager #
+PARTY_CREATED = Criaste uma nova festa
+PARTY_DISBANDED = A tua festa foi desfeita
+
+# Game Text #
+ODDS = Que a vantagem esteja sempre a teu lado
+STARTING_IN = começa em
+GAME_STARTING = A contagem do jogo iniciou!
+DM_STARTING = A contagem do deathmatch iniciou!
+START = Agora podes sofrer dano, luta!
+END = O jogo acabou, o  vencedor é:
+NOT_HAPPY = Não podes escapar do deathmatch cobarde!

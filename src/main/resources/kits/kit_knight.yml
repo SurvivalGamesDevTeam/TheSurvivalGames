@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##     Knight      ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Knight
+
+#Kit type
+type: Classic
+
+# Kit icon - Must use valid item name
+icon: GOLD_SWORD
+
+# Icon Lore
+iconLore: The Knight Kit is awesome because you can wield the special sword.
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "1;0#t@COOKIE:a@2:n@Cookie@l&2The awesome cookie%&1Knight Kit - LvL 1"
+
+ability-ids:
+    - 0

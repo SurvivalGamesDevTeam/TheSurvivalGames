@@ -1,0 +1,28 @@
+#####################
+## Kit Config File ##
+##       Pig       ##
+#####################
+
+# Valid item names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+# Kit name
+name: Pig
+
+#Kit type
+type: Mob
+
+# Kit icon - Must use valid item name
+icon: PORK
+
+# Icon Lore
+iconLore: Oink oink?
+
+# Items
+items:
+    # Kit Level
+    lvl1:
+        #Inventory to string
+        inventory: "2;0#t@PORK:a@1:e@LOOT_BONUS_MOBS@50:n@Oink?@l&dOink! Oink!%&1Pig Kit - LvL 1"
+
+ability-ids:
+    - 9

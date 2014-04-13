@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - oraclejdk7
+script: "mvn clean deploy --settings settings.xml"
+notifications:
+  email: false
+env:
+  global:
+    - secure: "iRkUrGn+D9wjUuqwZar3J5zGjaXFbu67tVoPC94qzs7OrjgqR9mLgpDK/eDfAGe0R5Irt7dgLuSkIFmbfsn1Honxc1Bt88/kA8ZLJUhJG7PHoX2wYlmNIcCKWM1BXGyD9G6u1cg0MluqVd3xvXBwWp/8pw3vWEgvGj7T8g4KMI8="
+    -  secure: "DqE9pFlt0oHccnVrbq4Yu7BETPPlvRJkqAo0VJfFq3gQfKeJLyurseWSgr401d0iT5rLsJ9IZuByrD/6hoGNWRRipdgELDzibHBBC6/IpkOCC7xdes3jQ1MkxdDn2eaDVhC9e7QJVggRv/YvkKQXY7d1uNkKjAwDxkHBmrsQ/8c="
+
